@@ -61,13 +61,13 @@ Optional for deployment:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/entbappy/BappyGPT.git
+git clone https://github.com/ManojP389/ManoXX.git
 ```
 
 ### 2. Navigate to the project directory
 
 ```bash
-cd BappyGPT
+cd ManoXX
 ```
 
 ### 3. Create a virtual environment
@@ -81,7 +81,7 @@ conda create -n bappygpt python=3.11 -y
 ### 4. Activate the virtual environment
 
 ```bash
-conda activate bappygpt
+conda activate manoXX
 ```
 
 ### 5. Install dependencies
@@ -161,18 +161,18 @@ BappyGPT/
 ### 1. Build the Docker image
 
 ```bash
-docker build -t bappygpt .
+docker build -t manoxx .
 ```
 
 ### 2. Run the Docker container
 
 ```bash
 docker run -d \
-  --name bappygpt \
+  --name manoxx \
   --restart always \
   -p 8080:8080 \
   --env-file .env \
-  bappygpt
+  manoxx
 ```
 
 The app will be available at:
